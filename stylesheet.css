@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family:' Roboto_Condensed';
+    font-weight:  300;
+    line-height: 1.5;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    display: flex;
+}
+.left-section{
+    width: 42.7%;
+}
+.right-section{
+    width: 57%;
+}
+.left-section .IMg{
+   height: 100vh;
+   width: 100%;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #e7af96 0%, #aa7861 100%);
+}
+.container-1 , .container-2{
+    background-color: #fff;
+    border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0 12.8px);
+    overflow: hidden;
+    width: 35vw;
+    max-width: 100%;
+}
+.header{
+    padding: 24px 0;
+    font-family:' Roboto_Condensed';
+}
+.header h1 {
+    color:#8b614b;
+    font-size: 24px;
+    font-family:' Roboto_Condensed';
+    text-transform: uppercase;
+    text-align: center;
+}
+.form{
+    padding: 30px;
+}
+.control{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family:' Roboto_Condensed';
+}
+.control input{
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    font-family:' Roboto_Condensed';
+}
+.form {
+    border-radius: 6px;
+    color: #8b614b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition:  all 1s ease;
+}
+.submit:hover {
+    color: #8b614b;
+    background: #e2ae96;
+}
+.exist-acc {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.exist-acc a{
+    color: coral;
+    text-decoration: none;
+
+}
+.control input:focus {
+    outline: none;
+    
+}
+button#acc_btn {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #8b614b;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-family: ' Roboto_Condensed';
+    text-transform: uppercase;
+    transition:  all 1s ease;
+}
+
+button#acc_btn:hover {
+    color: #8b614b;
+    background: #e2ae96;
+}
